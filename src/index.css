@@ -24,7 +24,7 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
+  /* display: flex; */  /* já tem um display flex la no src/pages/Login/styles.js , cuidade com esse duplicação de arquivos de estilo! */
   place-items: center;
   min-width: 320px;
   min-height: 100vh;

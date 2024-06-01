@@ -1,12 +1,15 @@
 import { styled } from '@stitches/react';
 
 export const StyledLogin = styled('div', {
-  display: 'flex',
-  flexDirection: 'column',
-  alignItems: 'center',
-  justifyContent: 'center',
-  height: '100vh',
-  backgroundColor: '#767676',
+  // body:{
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      height: '100vh',
+      backgroundColor: '#767676',
+  // },
+
 
   h1: {
     color: 'white',
@@ -17,13 +20,14 @@ export const StyledLogin = styled('div', {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    gap: '10px',
+    gap: '40px',
     width: '100%',
     maxWidth: '400px',
-    padding: '20px',
+    padding: '40px',
     boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
     backgroundColor: '#fff',
     borderRadius: '5px',
+    height:'200px',
 
     input: {
       width: '100%',
